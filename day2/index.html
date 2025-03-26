@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pricing card</title>
+</head>
+<body>
+    <main class="container">
+        <div class="current_plan">
+            <p>Your Current Plan</p>
+            <h3>Starter Trial <span>500MAU</span><span class="maus_span">s</span></h3>
+        </div>
+        <div class="choose__plan">
+            <h1>Choose a plan</h1>
+            <div class="billing__frequency">
+                <p>Billed monthly</p>
+                <div class="toggle">
+                    <div class="toggle_switch"></div>
+                </div>
+                <p>Billed anually</p>
+            </div>
+        </div>
+        <div class="card__container">
+            <div class="card">
+                <div class="tier_name">
+                    <h3>Starter</h3>
+                    <h2>$19</h2>
+                </div>
+                <div class="offers">
+                    <ul>
+                        <li>500 MAUS</li>
+                        <li>3 projects</li>
+                        <li>Unlimited guides</li>
+                        <li>Unlimited flows</li>
+                        <li>Unlimited branded themens</li>
+                        <li>Email support</li>
+                    </ul>
+                </div>
+                <button id="starter__button" class="plan__button">Choose Plan</button>
+            </div>
+            <div class="card">
+                <div class="tier_name">
+                    <h3>Pro</h3>
+                    <h2>$99 <sub>/month</sub></h2>
+                    <div class="select_maus">
+                        <select name="maus" id="maus">
+                            <option value="2500">2500</option>
+                            <option value="3000">3000</option>
+                            <option value="3500">3500</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                <div class="offers">
+                    <ul>
+                        <li>All starter features,Plus:</li>
+                        <li>Unlimited projects</li>
+                        <li>Unlimited fully customizable themes</li>
+                        <li>A dedicated Customer Success Manager</li>
+                    </ul>
+                </div>
+                <button id="pro__plan" class="plan__button">Choose plan</button>
+            </div>
+            <div class="card">
+                <div class="tier_name">
+                    <h3>Enterprise</h3>
+                    <h2>Let's Talk!</h2>
+                </div>
+                <div class="offers">
+                    <ul>
+                        <li>All pro features</li>
+                        <li>Unlimited MAUS</li>
+                        <li>Dedicated environment</li>
+                        <li>Enterprise account administration</li>
+                        <li>Premium support and services</li>
+                        <li>Emai support</li>
+                    </ul>
+                </div>
+                <button id="enterprise__button" class="plan__button">Choose Plan</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

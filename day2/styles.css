@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    background-color: rgb(25, 27, 29);
+}
+h1,h2,h3{
+    color:white;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    width:80%;
+    justify-items: center;
+    align-items:center
+}
+
+.current_plan{
+    background-color: rgb(188, 30, 74);
+    color:var(--white);
+    padding:10px 20px 10px 20px;
+    border-radius: 2px;
+
+    display:flex;
+    flex-direction: column;
+    color:white;
+    gap:5px;
+
+}
+.choose__plan{
+    display: flex;
+    flex-direction:column;
+    gap:5px;
+    margin:30px 0 30px 0;
+}
+.maus_span{
+    font-size: large;
+}
+
+.current_plan>p{
+    font-size: medium;
+}
+.toggle{
+    padding: 2px 1px;
+    border-radius: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(188, 30, 74);
+}
+.toggle_switch{
+    border-radius: 50%;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    margin-left: 19px;
+}
+.billing__frequency{
+    display:flex;
+    justify-content:space-between;
+    margin-top:4px;
+    margin-bottom: 4px;
+    align-items: center;
+    gap: 4px;
+}
+.billing__frequency>p{
+    color: gray;
+}
+.card__container{
+    display: flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+.card{
+    display: flex ;
+    flex-direction:column;
+    padding :10px 20px;
+    border-radius: 10px;
+    height: 400px;
+    width: 350px;
+    justify-content: space-between;
+    background-color: rgb(34, 38, 44);
+}
+.tier_name{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    gap:10px;
+}
+ul{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+li{
+    list-style: none;
+    color:white;
+    gap:2px
+
+}
+li::before{
+    color: rgb(188, 30, 74);
+    content: "\25E6";
+}
+.plan__button{
+    border-radius: 10px;
+    padding:15px 20px;
+    color:white;
+    outline:none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    margin:10px;
+    align-items: baseline;
+}
+button:hover{
+    transition: all;
+    opacity: 0.8;
+}
+#starter__button,#enterprise__button{
+    background-color: transparent;
+    outline:none;
+    border:1px solid rgb(188, 30, 74)
+}
+#pro__plan{
+    outline:none;
+    background-color: rgb(188, 30, 74);
+    border:none;
+}
+.offers{
+    margin: 10px;
+}
+sub{
+    color: whitesmoke;
+}
+.select_maus{
+    border:1px solid gray;
+    border-radius: 10px;
+    padding:10px 20px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+#maus{
+    background-color: transparent;
+    color:white;
+    outline:none;
+    border:none;
+    font-size: large;
+
+}
